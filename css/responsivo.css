@@ -1,0 +1,88 @@
+@media(max-width: 767px){
+  .menu-button{
+   
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    margin: 0 auto;
+  
+  }
+ .menu-button button{
+
+  text-align: center;
+  margin-left: 35%;
+ }
+  .logo{
+
+    text-align: center;
+    margin-top: 60px ;
+    z-index: 100;
+    position: absolute;    
+  }
+  
+  
+  .banner h1{
+    font-size: 28px;
+    margin-top: 270px;
+  
+  }
+  .dourado{
+    
+    font-size: 28px;
+  }
+  .info-barber{
+    display: flex;
+    align-self: center;
+   
+    max-width: 350px;
+    margin: 0 auto;
+    position: absolute;
+    top: 550px;
+    left: 0;
+
+    padding: 60px 0px;
+    text-align: center;
+    
+ 
+  }
+  .lista-diferencial{
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    margin: 0 auto; 
+    padding: 0 50px;
+  }
+  .menu ul{
+
+    position: relative;
+    
+    margin-top: 5px;
+  }
+
+  .menu ul li{
+    margin-top: 10px;
+  }
+  .social {
+    position: relative;
+    
+    padding-top: 30px;
+
+  }
+
+  .historia{
+    text-align: center;
+  }
+  .info-member p{
+    font-size:28px;
+  }
+  .formulario{
+
+ 
+    border-right: none;
+    
+  }
+  .contato{
+    text-align: center;
+  }
+}

@@ -1,0 +1,23 @@
+
+.info-member.ativo{
+  display: none;
+  
+}
+
+.info-member.ativo.show{
+  display: block;
+  animation: slide-show .6s forwards;
+  
+}
+
+
+@keyframes slide-show{
+  from{
+    opacity: 0;
+    transform: translate3d(-40px,0,0);
+
+  }to{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}

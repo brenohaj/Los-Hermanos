@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento:400,400i');
+
+
+
+body{
+  font-family: 'Fondamento', cursive;
+
+}
+
+
+
+.logo{
+
+  text-align: center;
+  margin-top: 20px ;
+  z-index: 100;
+  position: absolute;
+
+  
+}
+.menu-button button{
+  display: flex;
+  background: #B2945D;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  align-items: center;
+  position: absolute;
+  z-index: 300;
+
+}
+.logo a img{
+  max-width: 100%;
+}
+
+.menu-button button::before{
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 3px;
+  background: white;
+  box-shadow: 0 4px #fff, 0 -4px #fff;
+  margin-right: 5px;
+  
+
+}
+
+.banner{
+
+  width: 100%;
+	height: 700px;
+	background: url("../img/banner.jpg") no-repeat center;
+	background-size: cover;
+
+	text-align: center;
+  padding-top: 80px;
+  
+
+  
+}
+
+.banner h1{
+  
+  margin-top: 200px;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 48px;
+
+}
+.dourado{
+  color: #CEB17C;
+  font-size: 48px;
+}
+.banner a{
+
+  background: #B2945D;
+  padding: 20px 60px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 18px;  
+  transition: .4s ease-in-out;
+}
+
+.banner a:hover{
+
+  background: transparent;
+  border: 3px solid #B2945D;
+  color: #B2945D;
+  transition: .4s ease-in-out; 
+  font-weight: bold;
+}
+
+
+.info-barber{
+  max-width: 700px;
+  background: #444242;
+  margin: 0 auto;
+  position: absolute;
+  top: 550px;
+  left: 25%;
+  padding: 60px 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 10px #2A2A2A;
+  border-radius: 5px;
+  border: 5px solid #B2945D;
+  z-index: 200;
+}
+.lista-diferencial{
+  color: #fff;
+  float: left;
+  text-align: center;
+  margin: 0 auto; 
+  padding: 0 50px;
+}
+.lista-diferencial ul li{
+  margin-top: 20px;
+  border-bottom: 1px solid #C0C0C0;
+  text-align: left;
+  
+}
+.lista-diferencial ul li span img{
+ margin-right: 8px;
+  
+}
+
+.servicos{
+
+  background: #2A2A2A;
+  position: relative;
+  padding-bottom: 80px;
+  
+}
+
+.separador{
+  margin: 250px auto 0 auto;
+  text-align: center;
+}
+
+.separador img{
+  
+  max-width: 100%;
+}
+
+.servicos-item{
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.servicos-item h3{
+
+font-size: 36px;
+color: #CEB17C;
+margin-top: 15px;
+
+}
+
+.cta{
+  background: url('../img/parallax.jpg') no-repeat  center;
+  height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+
+.numeros{
+
+  background-image: linear-gradient(to right, #B2945D , #EEC16F);
+  padding: 100px 0;
+  text-align: center;
+ 
+
+}
+
+.numeros h3{
+  font-size: 22px;
+  font-weight: 400;
+  
+
+}
+.numeros span{
+  font-size: 26px;
+  font-weight: 800;
+  
+
+}
+
+.historia{
+  background: url('../img/bg-historia.jpg') no-repeat  center;
+  background-size: cover;
+ 
+}
+
+.info-historia img{
+
+  max-width: 100%;
+  text-align: center;
+  
+}
+.info-historia h2{
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.info-historia p{
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+.separador-1{
+  margin: 90px auto 0 auto;
+  text-align: center;
+}
+.separador-1 img{
+  max-width: 100%;
+ }
+.logo-historia{
+  text-align: center;
+  margin-top: 60px;
+  
+}
+.seta-historia{
+  text-align: center;
+  margin-top: 20px;
+}
+.texto-historia{
+  text-align: center;
+  margin-top: 40px;
+}
+.texto-historia p{
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.funcionarios{
+  background: #2A2A2A;
+  
+  padding-bottom: 80px;
+}
+.team{
+  margin-top: 90px;
+  text-align: center;
+}
+.team h3{
+  font-size: 20px;
+  color: #fff;
+}
+.info-member{
+
+  text-align: center;
+  margin: 50px auto ;
+}
+
+.info-member p{
+
+  font-size: 28px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 48px;
+}
+
+.info-member ul li{
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+.info-member ul li a i{
+  color: #fff;
+  font-size: 28px;
+  transition: .3s ease-in-out;
+
+}
+.info-member ul li a i:hover{
+  color: #CEB17C;
+  font-size: 28px;
+  transition: .3s ease-in-out;
+
+}
+
+.contato{
+  background-image: linear-gradient(to right, #B2945D , #EEC16F);
+ 
+  padding-bottom: 100px;
+
+}
+::-webkit-input-placeholder {
+  color:#fff;
+}
+
+
+
+.separador-1 h2{
+
+  margin-top: 30px;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.mapa{
+  width: 100%;
+  height: 400px;
+}
+.formulario{
+
+  margin-top: 40px;
+}
+
+form label{
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+
+}
+form input{
+   
+ width: 80%;
+ border-radius: 3px;
+ height: 30px;
+ background: transparent;
+ border: 0px solid transparent;
+ border-bottom: 1px solid #fff;
+ color: #fff;
+ 
+}
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+} 
+
+form textarea{
+  width: 80%;
+  resize: none;
+  height: 100px;
+  background: transparent;
+  border: 0px solid transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+form button{
+  background: transparent;
+  border: 3px solid #445566;
+  color: #445566;
+  transition: .4s ease-in-out; 
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+form button:hover{
+  background: #445566;;
+  border: 3px solid #445566;
+  color: #fff;
+  transition: .4s ease-in-out; 
+  
+}
+.formulario{
+
+  border-right: 2px solid #fff;
+  
+}
+
+.info-contato{
+  margin-top: 40px;
+  text-align: center;
+
+}
+.info-contato h2{
+  color: #fff;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.info-contato p{
+  margin-top: 5px;
+  
+}
+.footer{
+  background: #333333;
+  text-align: center;
+ 
+  padding: 20px 0;
+ 
+}
+
+.footer p{
+  color: #fff;
+}
+
+.seta{
+  display: none;
+}
+
+.seta.ativo{
+  
+  display: block;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 800;
+}
+
+.seta i{
+
+  font-size: 22px;
+  border: 1px solid #B2945D;
+  background: #B2945D;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+

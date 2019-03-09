@@ -1,0 +1,108 @@
+.menu{
+display: none;
+animation: slide-right .4s forwards;
+}
+
+.menu.ativo{
+display: block;
+position: fixed;
+z-index: 400;
+height: 100%;
+background: #4B4B4B;
+width: 300px;
+text-align: center;
+box-shadow: 9px 4px 8px rgba(0, 0, 0, .5);
+
+
+
+
+
+
+}
+
+
+.menu ul{
+
+  position: relative;
+  
+  margin-top: 50px;
+}
+.menu img{
+
+  margin-top: 40px;
+}
+.menu ul li{
+  margin-top: 20px;
+}
+.menu ul li a {
+  font-size: 18px;
+  color: #fff;
+  transition: .3s ease-in-out;
+
+}
+.menu ul li a:hover {
+  color:#EEC16F;
+  transition: .3s ease-in-out;
+
+}
+.menu .btn-sair{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 8px;
+  margin-top: 8px;
+  border-radius: 50px;
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+  color: #EEC16F;
+}
+
+.social {
+  position: relative;
+  top: -20px;
+  margin-left: 15px;
+}
+
+.social  li{
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 18px;
+
+}
+
+.social  li a i{
+  color: #fff;
+  font-size: 18px;
+  transition: .3s ease-in-out;
+
+}
+.social  li a i:hover{
+  color: #CEB17C;
+  font-size: 28px;
+  transition: .3s ease-in-out;
+
+}
+
+
+@keyframes slide-right{
+from{
+  opacity: 0;
+  transform: translate3d(-40px,0,0)
+}
+to{
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+}
+
+@keyframes slide-left{
+  from{
+    opacity: 1;
+     
+  }
+  to{
+    opacity: 0;
+    
+  }
+  }
