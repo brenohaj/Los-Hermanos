@@ -96,22 +96,31 @@ body{
   font-weight: bold;
 }
 
+.container-barber{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  
+ 
+
+}
 
 .info-barber{
   max-width: 700px;
   background: #444242;
-  margin: 0 auto;
-  position: absolute;
-  top: 550px;
-  left: 25%;
+  display: inline-block;
   padding: 60px 0px;
   text-align: center;
-  display: flex;
-  align-items: center;
   box-shadow: 5px 5px 10px #2A2A2A;
   border-radius: 5px;
   border: 5px solid #B2945D;
   z-index: 200;
+  position: absolute;
+ 
+
+
+
 }
 .lista-diferencial{
   color: #fff;
